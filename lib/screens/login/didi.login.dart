@@ -24,7 +24,7 @@ class DiDiLoginState extends State<DiDiLogin> {
           child: Column(
             children: <Widget>[
               Image.asset(
-                'assets/images/logo.png',
+                'lib/assets/images/logo.png',
                 height: 70.0,
                 width: 70.0,
               ),
@@ -36,7 +36,7 @@ class DiDiLoginState extends State<DiDiLogin> {
                     shape: BoxShape.circle,
                     image: DecorationImage(
                         fit: BoxFit.fill,
-                        image: AssetImage("assets/images/train.png"))),
+                        image: AssetImage("lib/assets/images/train.png"))),
               ),
               SizedBox(height: 10),
               Text(

@@ -2,19 +2,19 @@ import 'package:didi_mobile_app/widgets/appbar/didi.appbar.dart';
 import 'package:didi_mobile_app/widgets/drawer/didi.drawer.dart';
 import 'package:flutter/material.dart';
 
-import 'didi.setting.i18n.dart';
+import 'didi.bookinglist.i18n.dart';
 
-class DiDiSetting extends StatefulWidget {
+class DiDiBookingList extends StatefulWidget {
   @override
-  DiDiSettingState createState() => DiDiSettingState();
+  DiDiBookingListState createState() => DiDiBookingListState();
 }
 
-class DiDiSettingState extends State<DiDiSetting> {
+class DiDiBookingListState extends State<DiDiBookingList> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: didiAppBar(title: "Setting".i18n),
+      appBar: didiAppBar(title: "Booking List".i18n),
       body: Center(
         child: Text("Setting"),
       ),
