@@ -35,7 +35,7 @@ Drawer didiDrawer({BuildContext context}) {
                     onPressed: () {
                       changeRoute(context, '/setting');
                     },
-                    iconSize: 35,
+                    iconSize: 30,
                     color: Color(didi_color_white.hexColor()),
                   )
                 ],
